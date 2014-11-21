@@ -19,12 +19,12 @@ A good example for my understanding of this bold statement is **Task 4: Largest 
 This is written in C. Okay? I really suck at C, tho. But then again, I own a book about C. Considering that I, however, also own a book about financial mathematics (mint-condition, only put on display in one of my bookshelves)... yeah. This.
 
 ## Starting point ##
-Start in ´./src/ProjectEuler.c´ & change the task accordingly. Every problem has its own source-file (´ProblemN.c´), usually with explanations & comments at the beginning of the ´taskN()´ function.
+Start in `./src/ProjectEuler.c` & change the task accordingly. Every problem has its own source-file (`ProblemN.c`), usually with explanations & comments at the beginning of the `taskN()` function.
 
 ## Run ##
 I've tested this under 32bit Windows and 64bit Linux. Some problems aren't solvable w/ 32bit. I'll tell you.
-´gcc ProjectEuler.c -o euler -lm´
-´./euler´
+    `gcc ProjectEuler.c -o euler -lm`
+    `./euler`
 
 ## License ##
 MIT
